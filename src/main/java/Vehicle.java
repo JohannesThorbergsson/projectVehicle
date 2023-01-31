@@ -1,7 +1,7 @@
 public abstract class Vehicle implements Accelerateable{
-    private int id;
-    private String name;
-    int velocity;
+    protected int id;
+    protected String name;
+    protected int velocity;
 
     public Vehicle(int id, String name, int velocity) {
         this.id = id;
